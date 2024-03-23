@@ -1,6 +1,5 @@
-use std::net::TcpListener;
-
 use crate::startup::run;
+use std::net::TcpListener;
 use zero2prod::startup;
 
 #[tokio::main]
